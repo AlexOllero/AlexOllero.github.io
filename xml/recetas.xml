@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recetas.xsd">
+      <Receta>
+          <Ingredientes>
+              <Ingrediente>Patatas</Ingrediente>
+            </Ingredientes>
+            
+            <Ingredientes>
+              <Ingrediente>Huevos</Ingrediente>
+            </Ingredientes>
+              
+              <Ingredientes>
+              <Ingrediente>Aceite de oliva</Ingrediente>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente>Cebolla</Ingrediente>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente>Sal</Ingrediente>
+              </Ingredientes>
+         
+      </Receta>
+      
+      <Receta2>
+        <Ingredientes>
+              <Ingrediente2>Arroz</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Tomate frito</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Platano</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Huevos</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Sal</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Ajo</Ingrediente2>
+              </Ingredientes>
+              <Ingredientes>
+              <Ingrediente2>Laurel</Ingrediente2>
+        </Ingredientes>
+      
+      </Receta2>
+
+</recetas>

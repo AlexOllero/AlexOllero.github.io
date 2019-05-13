@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/pushbar.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Rellena tus datos</title>
+	
+</head>
+
+<body background="img/7.7.jpg">
+
+	<div class="contenedor">
+		<header>
+			<img src="img/up.jpg">
+			<u><h1>Up Soluciones Gastronómicas.</h1></u>
+			<strong><h2>¡Cocinamos Negocios!</h2></strong>
+				<audio id="myAudio">
+  <source src="audio/audio1.mp3" type="">
+  <source src="" type="">
+  
+</audio>
+
+
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+		</header>
+		<main>
+			<nav>
+				<button class="btn-menu" data-pushbar-target="pushbar-menu"><i class="fas fa-bars"></i></button>
+				<a href="#" class="banner" data-pushbar-target="pushbar-productos">Información</a>
+			</nav>
+			<a href="iframe7.7.html" target="iframe"></a>
+			
+				<table width="100%" cellspacing="3" cellpadding="5" border="3" bgcolor="#165480"> 
+<tr> 
+   <td bgcolor="#5FA6D7"> 
+<font size=5 face="verdana, arial, helvetica"> 
+<b><h1 id="Rellena tus datos" style="text-align: center;">Rellena tus datos</h1></b> 
+</font> 
+   </td> 
+</tr> 
+<tr> 
+    <td bgcolor="#ffffcc"> 
+   <font face="verdana, arial, helvetica" size=3> 
+  &nbsp;&nbsp; Nombre <br/>
+&nbsp;&nbsp;<input type="text" name="nombre" value="" size="20" maxlength="30" />
+ 
+<br/>
+ 
+&nbsp;&nbsp;Apellidos <br/>
+&nbsp;&nbsp;<input type="text" name="apellidos" value="" size="50" maxlength="80" />
+ 
+<br/>
+ 
+&nbsp;&nbsp;Contraseña <br/>
+&nbsp;&nbsp;<input type="password" name="contrasena" value="" maxlength="10" />
+ 
+<br/>
+ 
+&nbsp;&nbsp;DNI <br/>
+&nbsp;&nbsp;<input type="text" name="dni" value="" size="10" maxlength="9" />
+ 
+<br/>
+ 
+&nbsp;&nbsp;Sexo <br/>
+&nbsp;&nbsp;<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+&nbsp;&nbsp;<input type="radio" name="sexo" value="mujer" /> Mujer
+ 
+<br/><br/>
+ 
+&nbsp;&nbsp;Incluir mi foto <input type="text" name="foto" value="" size="20" maxlength="30" /><input type="file" name="adjunto" />
+ 
+<br/><br/>
+ 
+&nbsp;&nbsp;<input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+ 
+<br/><br/>
+ 
+&nbsp;&nbsp;<input type="submit" name="enviar" value="Guardar cambios" />
+&nbsp;&nbsp;<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+ 
+ 
+</form>
+    
+    <br>
+    <br>
+
+   </font> 
+   </td> 
+</tr> 
+</table>
+
+	
+
+				
+				
+				
+			
+		</main>
+
+		<div data-pushbar-id="pushbar-menu" class="pushbar from_left pushbar menu">
+			<div class="btn-cerrar">
+				<button data-pushbar-close><i class="fas fa-times"></i></button>
+			</div>
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<br>
+				<a href="iframe1.1.html">Nuestra historia</a>
+				<br>
+				<a href="iframe3.3.html">Cocinamos negocios</a>
+				<br>
+				<a href="iframe4.4.html">Consultoría</a>
+				<br>
+				<a href="iframe5.5.html">Nuestros clientes</a>
+				<br>
+				<a href="iframe2.2.html">Contacto</a>
+				<br>
+				<a href="iframe6.6.html">Comentarios</a>
+				<br>
+				<a href="iframe7.7.html">Rellena tus datos</a>
+
+				
+
+			</nav>
+
+		</div>
+		
+	</div>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="js/pushbar.js"></script>
+	<script>
+		var pushbar = new Pushbar({
+			blur: true,
+			overlay: true
+		});
+	</script>
+	<footer>
+
+		<p>Política de privacidad</p>
+		<p>2019</p>
+	
+	</footer>
+
+	
+</body>
+</html>
